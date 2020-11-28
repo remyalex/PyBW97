@@ -203,7 +203,7 @@ def main(intsFile, modelNum, bootsGroups=0, magnFlName=None, rmsFlName=None, ras
 
 if __name__ == "__main__":
     epilog = ('***PyBW97 v1.0.0 [Pyhon 2.7]***\n'
-              'Bakun & Wenworth Method for Earthquake Physical parameters estimation Program\n'
+              'Bakun & Wentworth Method for Earthquake Physical parameters estimation Program\n'
               ' Computes Physical parameters from Earthquake Intensities file in sample output format:\n'
               '     *** Intensities File Format ***\n'
               '         Head [Coordinates of Intensities Center and Grid Parameters]: <Long> <Lat>;<GridRadious(kms)>;<GridStep(kms)>\n'
