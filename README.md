@@ -1,2 +1,21 @@
 # PyBW97
-Bakun &amp; Wenworth (1997)[1] Method for Earthquake Physical parameters estimation Program:  Computes Physical parameters from Earthquake macroseismic intensities.
+'***PyBW97 v1.0.0 [Pyhon 2.7]***\n'
+              'Bakun & Wenworth Method for Earthquake Physical parameters estimation Program\n'
+              ' Computes Physical parameters from Earthquake Intensities file in sample output format:\n'
+              '     *** Intensities File Format ***\n'
+              '         Head [Coordinates of Intensities Center and Grid Parameters]: <Long> <Lat>;<GridRadious(kms)>;<GridStep(kms)>\n'
+              '         Next lines [Coordinates and intensity value (EMS98 scale)]: <Long> <Lat> <Intensity(ems98)>\n'
+              '     *** End (<filename>.int)***\n'
+              '--- Required Parameters ---\n'
+              '     -if Path of intensities file: /<path>/<to>/<filename>.int\n'
+              '     -m IPE Models (Intensity Prediction Equation):\n'
+              '         <1> - Palme et al (2005)       :  I = 2.2 - 1.6*M + 4e-2*(Dist) + 0*(LogDist)\n'
+              '         <2> - Gomez-Capera et al (2016):  I = 1.92 - 2.3*M + 2.1e-3*(Dist) + 3.68*(LogDist)\n'
+              '--- End ---\n'
+              '--- Optional Parameters ---\n'
+              '     -mn Name of magnitudes file: <magnitudesName>\n'
+              '     -rn Name of rms file: <rmsName>\n'
+              '     -b  Number of Bootstrap resamples\n'
+              '--- End ---\n\n'
+              'Author: Remy Galan\n'
+              'Licence: GNU GPLv3\n
