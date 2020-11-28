@@ -1,6 +1,6 @@
 **PyBW97 v1.0.0 [Pyhon 2.7]**:
 
-Bakun & Wenworth (1997) Method [(article)](http://usuarios.geofisica.unam.mx/cruz/Sismociones_Libres/Biblio_Sismocion/Bakun_and_Wentworth_BSSA_1997.pdf) for Earthquake Physical parameters estimation Program:
+Bakun & Wentworth (1997) Method [(article)](http://usuarios.geofisica.unam.mx/cruz/Sismociones_Libres/Biblio_Sismocion/Bakun_and_Wentworth_BSSA_1997.pdf) for Earthquake Physical parameters estimation Program:
 Computes Physical parameters from Earthquake Intensities file in sample output format:
 
 * ** Intensities File Format **
