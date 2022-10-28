@@ -6,8 +6,6 @@ Bakun & Wenworth (1997) Method [(article)](http://usuarios.geofisica.unam.mx/cru
 Computes Physical parameters from Earthquake Intensities file in sample output format:
 
 * ** Intensities File Format **
-![Intensities_Grid](data/images/intensities_grid.png)
-
 ```bash
     Head [Coordinates of Intensities Center and Grid Parameters]:
          <Long> <Lat>;<GridRadious(kms)>;<GridStep(kms)>
@@ -15,6 +13,7 @@ Computes Physical parameters from Earthquake Intensities file in sample output f
          <Long> <Lat> <Intensity(ems98)>\
   ** End (<filename>.int)**
 ```
+![Intensities_Grid](data/images/intensities_grid.png)
 
 *  --- Required Parameters ---
 ```bash
@@ -24,6 +23,8 @@ Computes Physical parameters from Earthquake Intensities file in sample output f
          <2> - Gomez-Capera et al (2016):  I = 1.92 - 2.3*M + 2.1e-3*(Dist) + 3.68*(LogDist)
    --- End ---
 ```   
+![NoBoot_Grid](data/images/noboot_grids.png)
+
 *  --- Optional Parameters ---
 ```bash
        -mn Name of magnitudes file: <magnitudesName>
@@ -31,7 +32,6 @@ Computes Physical parameters from Earthquake Intensities file in sample output f
        -b  Number of Bootstrap resamples
    --- End ---
 ```
-![NoBoot_Grid](data/images/noboot_grids.png)
 ![Boot_Grid](data/images/boot_grids.png)
 
 Author: Remy Galan
