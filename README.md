@@ -1,9 +1,13 @@
-**PyBW97 v1.0.0 [Pyhon 2.7]**:
+# *PyBW97 v1.0.0 [Pyhon 2.7]*:
 
-Bakun & Wenworth (1997) Method [(article)](http://usuarios.geofisica.unam.mx/cruz/Sismociones_Libres/Biblio_Sismocion/Bakun_and_Wentworth_BSSA_1997.pdf) for Earthquake Physical parameters estimation Program:
+Bakun & Wenworth (1997) Method [(article)](http://usuarios.geofisica.unam.mx/cruz/Sismociones_Libres/Biblio_Sismocion/Bakun_and_Wentworth_BSSA_1997.pdf) for Earthquake Physical parameters estimation.
+
+## Program:
 Computes Physical parameters from Earthquake Intensities file in sample output format:
 
 * ** Intensities File Format **
+![Intensities_Grid](data/images/intensities_grid.png)
+
 ```bash
     Head [Coordinates of Intensities Center and Grid Parameters]:
          <Long> <Lat>;<GridRadious(kms)>;<GridStep(kms)>
@@ -11,6 +15,7 @@ Computes Physical parameters from Earthquake Intensities file in sample output f
          <Long> <Lat> <Intensity(ems98)>\
   ** End (<filename>.int)**
 ```
+
 *  --- Required Parameters ---
 ```bash
          -if Path of intensities file: /<path>/<to>/<filename>.int
@@ -26,5 +31,10 @@ Computes Physical parameters from Earthquake Intensities file in sample output f
        -b  Number of Bootstrap resamples
    --- End ---
 ```
+![NoBoot_Grid](data/images/noboot_grids.png)
+![Boot_Grid](data/images/boot_grids.png)
+
 Author: Remy Galan
 Licence: GNU GPLv3
+
+## Docker build:
